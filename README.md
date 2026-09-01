@@ -281,6 +281,8 @@ The repository includes a Streamlit application for exploring the aggregate eval
 
 *Interactive dashboard for exploring compression effects, recognition performance, and demographic fairness across model, codec, and demographic conditions.*
 
+> **Live demo:** [Open the interactive Streamlit dashboard](https://face-recognition-compression-fairness-nyxmqeysqrt7b9kh6sajxc.streamlit.app)
+
 The dashboard allows users to filter by:
 
 - recognition model;
