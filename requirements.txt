@@ -1,0 +1,38 @@
+# Core numerical and data analysis
+numpy
+pandas
+scikit-learn
+
+# Computer vision and image handling
+opencv-python
+Pillow
+pillow-heif
+
+# Face preprocessing / recognition
+mediapipe==0.10.14
+protobuf==4.25.3
+insightface
+onnxruntime
+
+# MagFace inference
+torch
+torchvision
+
+# Downloads used by JPEG XL / MagFace setup cells
+requests
+
+# Portfolio dashboard
+streamlit
+plotly
+
+# ------------------------------------------------------------
+# System dependencies used by the notebooks are NOT installed
+# through pip:
+#
+#   ffmpeg
+#   libheif-examples
+#   libx265-dev
+#
+# JPEG XL v0.11.1 (cjxl/djxl) is downloaded by the notebooks.
+#
+# ------------------------------------------------------------

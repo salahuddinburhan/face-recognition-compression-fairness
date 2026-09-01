@@ -1,0 +1,92 @@
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# ============================================================
+# Jupyter
+# ============================================================
+.ipynb_checkpoints/
+
+# ============================================================
+# OS / editor files
+# ============================================================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ============================================================
+# PRIVATE RESEARCH DATA
+# Never commit participant images or participant-level data.
+# ============================================================
+/data/
+dataset/
+datasets/
+images/
+raw_images/
+preprocessed_images/
+compressed_images/
+rejected_images/
+
+# Extra protection if private folders are created elsewhere
+**/raw_images/
+**/preprocessed_images/
+**/compressed_images/
+**/rejected_images/
+**/private_results/
+
+# ============================================================
+# RESULTS
+# Only the aggregate fairness summary is public.
+# ============================================================
+results/data/*
+!results/data/fairness_summary_table.csv
+
+# Explicit protection for participant-level pairwise scores
+**/raw_pairwise_scores.csv
+
+# ============================================================
+# PRETRAINED MODEL FILES
+# Third-party model weights can be large and may have separate
+# redistribution/licensing requirements.
+# ============================================================
+*.pt
+*.pth
+*.onnx
+
+# Allow model documentation if added later
+!models/README.md
+
+# ============================================================
+# Downloaded / generated external tools and temporary files
+# ============================================================
+MagFace/
+MagFace-main/
+MagFace-master/
+jxl-linux-x86_64-static-*.tar.gz
+
+temp_decode.png
+temp_decode_heic.png
+
+# ============================================================
+# Logs / temporary files
+# ============================================================
+*.log
+*.tmp
+*.temp
